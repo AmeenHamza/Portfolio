@@ -244,7 +244,7 @@ body {
 
 .services-list div {
     background-color: transparent;
-    font-size: 13px;
+    font-size: 16px;
     /* font-weight: 500; */
     padding: 40px;
     border-right: 10px;
@@ -1043,9 +1043,8 @@ footer .last-text p {
 
     .btn-box {
         display: block;
-        margin: 0 auto;
-        width: 73%;
-        padding: 12px 32px;
+        width: 100%;
+        text-align: center;
     }
     .container {
         padding: 20px;
@@ -1070,11 +1069,11 @@ footer .last-text p {
       }
       .layer p {
         color: #000;
-        font-size: 12px;
+        font-size: 16px;
         line-height: 1.5;
       }
       .layer h5 {
-        font-size: 18px;
+        font-size: 20px;
         margin-bottom: 10px;
       }
       .layer i {
