@@ -347,34 +347,6 @@ body {
     opacity: 0;
 }
 
-/* .Technical-bars .bar .progress-line {
-    position: relative;
-    border-radius: 10px;
-    height: 5px;
-    width: 100%;
-    background-color: #000000;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-}
-
-
-@keyframes animate {
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-.Technical-bars .bar .progress-line span {
-    height: 100%;
-    background-color: #0ef;
-    position: absolute;
-    border-radius: 10px;
-    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
-    transform: scaleX(0);
-    transform-origin: left;
-} */
-
 .Technical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
@@ -1024,7 +996,7 @@ footer .last-text p {
 
     .about-text p {
         color: aliceblue;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.4;
         margin-bottom: 4rem;
         text-align: justify;
