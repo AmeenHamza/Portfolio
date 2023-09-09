@@ -817,6 +817,16 @@ form textarea {
     box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 }
 
+footer {
+    width: 100%;
+    height: auto;
+    background: rgb(7, 85, 91);
+}
+
+footer span {
+    cursor: pointer;
+}
+
 footer .last-text p {
     width: 100%;
     text-align: center;
@@ -942,7 +952,12 @@ footer .last-text p {
 
     .container1 {
         width: 80%;
+        padding: 75px 18px;
     }
+    .radial-bar .text {
+        left: 36%;
+        font-size: 16px;
+      }
 
     .home {
         flex-direction: column;
@@ -1004,11 +1019,12 @@ footer .last-text p {
         display: block;
         margin: 50% auto 0 auto;
         width: 250px;
+        margin-top: 50%;
     }
 
     .about-text p {
         color: aliceblue;
-        font-size: 13px;
+        font-size: 16px;
         line-height: 1.4;
         margin-bottom: 4rem;
         text-align: justify;
@@ -1028,19 +1044,48 @@ footer .last-text p {
     .btn-box {
         display: block;
         margin: 0 auto;
-        width: 55%;
+        width: 73%;
         padding: 12px 32px;
     }
     .container {
-        padding: 50px;
+        padding: 20px;
     }
+    .heading1 {
+        margin-bottom: 26px;
+      }
     .main-text {
         padding-top: 0;
         margin-top: 200px;
     }
+    .sub-title {
+        font-size: 48px;
+        padding-bottom: 26px;
+      }
     .portfolio-content {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+      }
+      .Technical-bars {
+        width: 100%;
+      }
+      .layer p {
+        color: #000;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+      .layer h5 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+      .layer i {
+        margin-top: 16px;
+        font-size: 14px;
+        width: 40px;
+        height: 40px;
+      }
+      .main-text h2 {
+        font-size: 48px;
+        line-height: 2;
       }
 }
 
