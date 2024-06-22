@@ -391,7 +391,7 @@ body {
 }
 
 .progress-line.javascript span {
-    width: 70%;
+    width: 85%;
 }
 
 .progress-line.bootstrap span {
@@ -400,6 +400,10 @@ body {
 
 .progress-line.react span {
     width: 85%;
+}
+
+.progress-line.mongo span {
+    width: 90%;
 }
 
 .progress-line span::after {
@@ -424,7 +428,7 @@ body {
 }
 
 .progress-line.javascript span::after {
-    content: "70%";
+    content: "85%";
 }
 
 .progress-line.bootstrap span::after {
@@ -433,6 +437,10 @@ body {
 
 .progress-line.react span::after {
     content: "85%";
+}
+
+.progress-line.mongo span::after {
+    content: "90%";
 }
 
 .progress-line span::before {
